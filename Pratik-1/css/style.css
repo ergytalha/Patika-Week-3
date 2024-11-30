@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    padding-top: 54px;
+    background-color: #fafafa;
+  }
+
+  ::placeholder {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background: url('assets/search-icon.png') no-repeat left 10px center;
+    background-size: 16px 16px;
+    padding-left: 30px;
+    font-family: Arial, FontAwesome;
+}
+  input.empty {
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      background-color: #FAFAFA;
+  }
+  
+  .postuserfont {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+  
+  
+  .storyphoto {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+}
+
+.storytext {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+  
+  .rightpanellinks {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  
+  .rightpanellinks:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  
+.middlearea {
+    max-height: 200px !important;
+}
+
+.navbar {
+  height: 54px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  margin-left: 192px; /* Logo için sol boşluk */
+}
+
+.form-inline {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}
+.navbar-nav .nav-item {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.middlearea {
+  max-height: 200px !important;
+}
+
+.card-header,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8b8585;
+}
+
+.list-group-horizontal .nav-item {
+  border: none;
+}
+
+.list-group-horizontal .nav-item:nth-child(4) {
+  margin-left: 7px; 
+}
+.rightpanel {
+  background-color: white;
+  border: none;
+  position: sticky;
+  top: 54px;
+}
+
+.storyphoto {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.storytext {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #8b8585;
+}
+
+.rightpanel-links a {
+  color: #8b8585;
+  font-size: 11px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.rightpanel-links a:hover {
+  color: #8b8585;
+}
+
+.postuserfont strong {
+  font-weight: bold;
+}
+
+.postuserfont a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-share {
+  color: #0095f6;
+    opacity: 0.5;
+}
