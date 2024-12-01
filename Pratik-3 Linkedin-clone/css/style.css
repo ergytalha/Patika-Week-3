@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f2ee;
+}
+  ::placeholder {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background: url('../img/search-solid.svg') no-repeat left 32px center;
+    padding-left: 3px;
+    font-family: Arial, FontAwesome;
+}
+
+
+header {
+    background: #f8f9fa;
+}
+
+.list-group-item {
+    border: none;
+}
+.post-header-buton i {
+    font-size: 18px;
+}
+.cart-footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copy span {
+    font-size: 14px;
+}

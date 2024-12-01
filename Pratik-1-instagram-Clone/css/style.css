@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 14px;
     color: gray;
-    background: url('assets/search-icon.png') no-repeat left 10px center;
+    background: url('../img/search-solid.svg') no-repeat left 10px center;
     background-size: 16px 16px;
     padding-left: 30px;
     font-family: Arial, FontAwesome;
