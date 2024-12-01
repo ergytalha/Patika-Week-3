@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Kişisel Blog</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+        <style>
+            .logo {
+                filter: brightness(10);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark py-3">
+          <div class="container-fluid">
+              <img class="logo ml-5" src="./img/logo.svg" alt="" width="200" />
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mr-5" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </nav>
+        <!-- Navbar End -->
+         <!-- Hero Section Start -->
+        <div class="container mt-5 py-5">
+            <div class="jumbotron text-center bg-light">
+                <h1 class="display-4">Yapay Zeka ile Geleceğe</h1>
+                <p class="lead">
+                    Yapay zeka, dünyayı dönüştürüyor. Sağlık, ulaşım ve şehir yaşamı gibi pek çok alanda yenilikçi çözümler sunarak daha verimli ve sürdürülebilir bir yaşamın kapılarını açıyor.
+                </p>
+                <hr class="my-4" />
+                <p>
+                    Bu blogda, yapay zekanın sağlık sektöründe nasıl devrim yarattığını, akıllı şehirleri nasıl şekillendirdiğini ve otonom araçlarla geleceği nasıl yeniden tanımladığını keşfedin.
+                </p>
+                <a class="btn btn-primary btn-lg" href="#content" role="button">Keşfetmeye Başla</a>
+            </div>
+        </div>
+        <!-- Hero Section End -->
+         <!-- Content Section Start -->
+        <div class="container" id="content">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h3>Yapay Zeka ile Şekillenen Yeni Dünya</h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/saglik-sektoru-yapay-zeka.jpg" alt="Sağlıkta Yapay Zeka" />
+                        <div class="card-body">
+                            <h5 class="card-title">Sağlıkta Yapay Zeka</h5>
+                            <p class="card-text">
+                                Yapay zeka, sağlık sektöründe devrim yaratıyor. Teşhis sürecinden hastaların tedavi planlamasına kadar her alanda, AI'nın sunduğu yenilikçi çözümler hem doktorların işini kolaylaştırıyor hem de hastaların
+                                yaşam kalitesini artırıyor. Bu yazıda, yapay zekanın sağlık sektöründeki uygulamalarını ve sunduğu fırsatları ele alıyoruz.
+                            </p>
+
+                            <a href="#" class="btn btn-warning">Devamını Oku</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/akilli-sehir-ai.jpg" alt="Akıllı Şehirler ve Yapay Zeka" />
+                        <div class="card-body">
+                            <h5 class="card-title">Akıllı Şehirler ve Yapay Zeka</h5>
+                            <p class="card-text">
+                                Akıllı şehirler, yapay zeka ile daha yaşanabilir ve sürdürülebilir bir yapıya kavuşuyor. Trafik yönetimi, enerji kullanımı, atık yönetimi ve şehir güvenliği gibi alanlarda AI'nın sağladığı çözümler, şehir
+                                yaşamını kolaylaştırıyor. Bu yazıda, yapay zekanın şehirlerin geleceğini nasıl şekillendirdiğini ve sunduğu fırsatları inceleyeceğiz.
+                            </p>
+
+                            <a href="#" class="btn btn-warning">Devamını Oku</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/otonom-araclar-ai.jpeg" alt="Otonom Araçlar ve Yapay Zeka" />
+                        <div class="card-body">
+                            <h5 class="card-title">Otonom Araçlar ve Yapay Zeka</h5>
+                            <p class="card-text">
+                                Otonom araçlar, yapay zeka sayesinde sürüş güvenliğini artırıyor ve trafik sorunlarına yenilikçi çözümler sunuyor. Çevresel sensörlerden gelen verileri anlık olarak analiz eden AI destekli sistemler, daha
+                                güvenli ve verimli bir sürüş deneyimi sağlıyor. Bu yazıda, otonom araçların çalışma prensiplerini ve yapay zekanın bu alandaki katkılarını keşfedin.
+                            </p>
+                            <a href="#" class="btn btn-warning">Devamını Oku</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content Section End -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>
